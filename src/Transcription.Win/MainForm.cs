@@ -22,6 +22,7 @@ namespace Transcription.Win
             { "Trubetzkoy", Func.Ka.Trubetzkoy },
             { "IPA", Func.Ka.IPA },
             { "Passport", Func.Ka.Passport },
+            { "Romanization", Func.Ka.Romanization },
         };
 
 
@@ -34,7 +35,5 @@ namespace Transcription.Win
 
             textBox2.Text = StringHelper.Replace(textBox1.Text, Func.Ka.Unicode, chars);
         }
-
-
     }
 }
